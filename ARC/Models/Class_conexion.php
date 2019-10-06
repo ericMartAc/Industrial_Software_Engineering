@@ -4,7 +4,7 @@
 			$user = "root";
 			$pass = "";
 			$host = "localhost";
-			$db = "rousse_db";
+			$db = "rouse_db";
 			
 			$conexion = new PDO("mysql:host=$host;dbname=$db;",$user,$pass);
 			return $conexion;

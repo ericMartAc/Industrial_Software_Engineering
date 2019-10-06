@@ -13,6 +13,7 @@
   	
 
 <body>
+
 <header>
 
 <nav class="title">
@@ -26,16 +27,20 @@
 </nav>
 <nav class="navbar-arc">
 	<ul>
-		<li><a href="#" onclick="Mostrar_navbarArc_submenu_archivo()">ARCHIVO</a></li>
-		<li><a href="#"  onclick="Mostrar_navbarArc_submenu_clientes()">CLIENTES</a></li>
-		<li><a href="#" onclick="Mostrar_navbarArc_submenu_logistica()">LOGISTICA</a></li>
-		<li><a href="#" onclick="Mostrar_navbarArc_submenu_operacion()">OPERACIÓN</a></li>
-		<li><a href="#"  onclick="Mostrar_navbarArc_submenu_administracion()">ADMINISTRACIÓN</a></li>
+		<li><a href="#navbarArc_submenu_archivo">ARCHIVO</a></li>
+		<li><a href="#navbarArc_submenu_clientes">CLIENTES</a></li>
+		<li><a href="#navbarArc_submenu_logistica">LOGISTICA</a></li>
+		<li><a href="#navbarArc_submenu_operacion">OPERACIÓN</a></li>
+		<li><a href="#navbarArc_submenu_administracion">ADMINISTRACIÓN</a></li>
 	</ul> 
 </nav>
 <?php
-	include 'Menus/navbar-arc.php';
+  include 'Modals/navbarArc_home_submenu.php';
 ?>
+
+
+
+
 </header>
 
 <section class="slider">

@@ -15,7 +15,7 @@
 	</head>
 	<body>
 		<section class="auth" id="auth_index">
-			<img class="avatar" src="Public/fworm/Img/logo/arclogo.png" alt="LOGO">
+			<img class="avatar" src="Public/fwork/Img/logo/arclogo.png" alt="LOGO">
 			<form  class="login100-form validate-form " method="POST" action="Controllers/SQL/AuthUsuario.php" >
 				<input class="form-control input_text_index" type="number" name="arg_numId" value=""   autocomplete="off"  placeholder="NUMERO DE CÉDULA">
 				<input class="form-control input_text_index" type="password" name="arg_psw" value="" autocomplete="off" placeholder="CONTRASEÑA"><br>
