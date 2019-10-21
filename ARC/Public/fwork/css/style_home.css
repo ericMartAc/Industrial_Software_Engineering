@@ -10,7 +10,11 @@ body{
 
 }
 /*modals */
-
+.modals_navbarArc_home_submenu a{
+	align-content: center;
+	align-items: center;
+	text-align: center;
+}
 /*  cabecera*/
 header{
 	width:100%;

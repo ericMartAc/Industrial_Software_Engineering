@@ -10,7 +10,9 @@ class Class_ConsultasClientes{
         $conexion = $modelConn->get_conexion();
         $sql = "SELECT nombre FROM clientes";
         $statement = $conexion->query($sql);
-        for ($i=0; $i < 100; $i++) { 
+        $cantColumnas = $statement->rowCount();
+
+        for ($i=0; $i <= $cantColumnas; $i++) { 
             # code...
             $row[$i] = $statement->fetch(PDO::FETCH_COLUMN);
         };

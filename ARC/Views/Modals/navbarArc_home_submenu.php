@@ -4,6 +4,7 @@
 
 
 <!-- Modal MENU ARCHIVO-->
+<div style="text-align: center;">
 <div class="modal fade" id="modal_archivo" tabindex="-1" role="dialog" aria-labelledby="modal_archivoLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -42,16 +43,16 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body center">
       <?php
       $a = 0;
-      while ($a <= 2) {
+      while ($a < count($ArrayClientes)) {
         # code...
       
       ?>
         <div class="row">
           <div class="col">
-            <a href="#">
+            <a href="Clientes/<?php echo $a?>.html" type="button" class="btn btn-default">
             <?php echo $ArrayClientes[$a]?>
             </a>
           </div>
@@ -63,7 +64,7 @@
 
         <div class="row">
           <div class="col">
-            <a href="#">
+            <a href="Clientes/Formularios/registro.html">
             agregar un nuevo cliente
             </a>            
           </div>
@@ -75,4 +76,5 @@
       </div>
     </div>
   </div>
+</div>
 </div>
